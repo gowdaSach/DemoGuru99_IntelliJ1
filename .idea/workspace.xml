@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0820db56-afda-4c50-89cf-d7bdd914a55a" name="Changes" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber_Project_003_Junit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoGuru99/src/test/java/Features/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJPractice1111" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/target/classes/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeSession/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NB9FjtlOTCcPTMUVrSkNDUp2GJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0820db56-afda-4c50-89cf-d7bdd914a55a" name="Changes" comment="" />
+      <created>1679126514744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679126514744</updated>
+    </task>
+    <task id="LOCAL-00001" summary="new commit">
+      <created>1679126737929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679126737929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+  </component>
+</project>

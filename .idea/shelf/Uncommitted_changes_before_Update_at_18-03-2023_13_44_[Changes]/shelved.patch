@@ -1,0 +1,763 @@
+Index: ../PracticeSession/target/classes/META-INF/maven/archetype.xml
+===================================================================
+diff --git a/../PracticeSession/target/classes/META-INF/maven/archetype.xml b/../PracticeSession/target/classes/META-INF/maven/archetype.xml
+deleted file mode 100644
+--- a/../PracticeSession/target/classes/META-INF/maven/archetype.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,9 +0,0 @@
+-<archetype>
+-  <id>PracticeSession</id>
+-  <sources>
+-    <source>src/main/java/App.java</source>
+-  </sources>
+-  <testSources>
+-    <source>src/test/java/AppTest.java</source>
+-  </testSources>
+-</archetype>
+Index: ../DemoGuru99/.idea/encodings.xml
+===================================================================
+diff --git a/../DemoGuru99/.idea/encodings.xml b/../DemoGuru99/.idea/encodings.xml
+deleted file mode 100644
+--- a/../DemoGuru99/.idea/encodings.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../PracticeSession/target/classes/archetype-resources/src/test/java/AppTest.java
+===================================================================
+diff --git a/../PracticeSession/target/classes/archetype-resources/src/test/java/AppTest.java b/../PracticeSession/target/classes/archetype-resources/src/test/java/AppTest.java
+deleted file mode 100644
+--- a/../PracticeSession/target/classes/archetype-resources/src/test/java/AppTest.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,38 +0,0 @@
+-package $org.example;
+-
+-import junit.framework.Test;
+-import junit.framework.TestCase;
+-import junit.framework.TestSuite;
+-
+-/**
+- * Unit test for simple App.
+- */
+-public class AppTest 
+-    extends TestCase
+-{
+-    /**
+-     * Create the test case
+-     *
+-     * @param testName name of the test case
+-     */
+-    public AppTest( String testName )
+-    {
+-        super( testName );
+-    }
+-
+-    /**
+-     * @return the suite of tests being tested
+-     */
+-    public static Test suite()
+-    {
+-        return new TestSuite( AppTest.class );
+-    }
+-
+-    /**
+-     * Rigourous Test :-)
+-     */
+-    public void testApp()
+-    {
+-        assertTrue( true );
+-    }
+-}
+Index: ../DemoGuru99/src/main/resources/archetype-resources/pom.xml
+===================================================================
+diff --git a/../DemoGuru99/src/main/resources/archetype-resources/pom.xml b/../DemoGuru99/src/main/resources/archetype-resources/pom.xml
+deleted file mode 100644
+--- a/../DemoGuru99/src/main/resources/archetype-resources/pom.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,15 +0,0 @@
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+-  <modelVersion>4.0.0</modelVersion>
+-  <groupId>$org.example</groupId>
+-  <artifactId>$DemoGuru99</artifactId>
+-  <version>$1.0-SNAPSHOT</version>
+-  <dependencies>
+-    <dependency>
+-      <groupId>junit</groupId>
+-      <artifactId>junit</artifactId>
+-      <version>3.8.1</version>
+-      <scope>test</scope>
+-    </dependency>
+-  </dependencies>
+-</project>
+Index: ../DemoGuru99/src/main/resources/archetype-resources/src/main/java/App.java
+===================================================================
+diff --git a/../DemoGuru99/src/main/resources/archetype-resources/src/main/java/App.java b/../DemoGuru99/src/main/resources/archetype-resources/src/main/java/App.java
+deleted file mode 100644
+--- a/../DemoGuru99/src/main/resources/archetype-resources/src/main/java/App.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,13 +0,0 @@
+-package $org.example;
+-
+-/**
+- * Hello world!
+- *
+- */
+-public class App 
+-{
+-    public static void main( String[] args )
+-    {
+-        System.out.println( "Hello World!" );
+-    }
+-}
+Index: ../DemoGuru99/src/main/resources/archetype-resources/src/test/java/AppTest.java
+===================================================================
+diff --git a/../DemoGuru99/src/main/resources/archetype-resources/src/test/java/AppTest.java b/../DemoGuru99/src/main/resources/archetype-resources/src/test/java/AppTest.java
+deleted file mode 100644
+--- a/../DemoGuru99/src/main/resources/archetype-resources/src/test/java/AppTest.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,38 +0,0 @@
+-package $org.example;
+-
+-import junit.framework.Test;
+-import junit.framework.TestCase;
+-import junit.framework.TestSuite;
+-
+-/**
+- * Unit test for simple App.
+- */
+-public class AppTest 
+-    extends TestCase
+-{
+-    /**
+-     * Create the test case
+-     *
+-     * @param testName name of the test case
+-     */
+-    public AppTest( String testName )
+-    {
+-        super( testName );
+-    }
+-
+-    /**
+-     * @return the suite of tests being tested
+-     */
+-    public static Test suite()
+-    {
+-        return new TestSuite( AppTest.class );
+-    }
+-
+-    /**
+-     * Rigourous Test :-)
+-     */
+-    public void testApp()
+-    {
+-        assertTrue( true );
+-    }
+-}
+Index: ../DemoGuru99/pom.xml
+===================================================================
+diff --git a/../DemoGuru99/pom.xml b/../DemoGuru99/pom.xml
+deleted file mode 100644
+--- a/../DemoGuru99/pom.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,9 +0,0 @@
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+-  <modelVersion>4.0.0</modelVersion>
+-  <groupId>org.example</groupId>
+-  <artifactId>DemoGuru99</artifactId>
+-  <version>1.0-SNAPSHOT</version>
+-  <name>Archetype - DemoGuru99</name>
+-  <url>http://maven.apache.org</url>
+-</project>
+Index: ../PracticeSession/.idea/.gitignore
+===================================================================
+diff --git a/../PracticeSession/.idea/.gitignore b/../PracticeSession/.idea/.gitignore
+deleted file mode 100644
+--- a/../PracticeSession/.idea/.gitignore	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../PracticeSession/.idea/misc.xml
+===================================================================
+diff --git a/../PracticeSession/.idea/misc.xml b/../PracticeSession/.idea/misc.xml
+deleted file mode 100644
+--- a/../PracticeSession/.idea/misc.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,14 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="MavenProjectsManager">
+-    <option name="originalFiles">
+-      <list>
+-        <option value="$PROJECT_DIR$/pom.xml" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../PracticeSession/Test1.java
+===================================================================
+diff --git a/../PracticeSession/Test1.java b/../PracticeSession/Test1.java
+deleted file mode 100644
+--- a/../PracticeSession/Test1.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,16 +0,0 @@
+-
+-public class Test1 {
+-
+-    public static void main(String[] args){
+-        int a=10;
+-        int b=20;
+-        int c=30;
+-         int  sum=a+b+c;
+-        System.out.println("Hai, the sum is:"+sum);
+-
+-
+-
+-                }
+-
+-
+-}
+Index: ../PracticeSession/.idea/jarRepositories.xml
+===================================================================
+diff --git a/../PracticeSession/.idea/jarRepositories.xml b/../PracticeSession/.idea/jarRepositories.xml
+deleted file mode 100644
+--- a/../PracticeSession/.idea/jarRepositories.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Central Repository" />
+-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../DemoGuru99/.idea/jarRepositories.xml
+===================================================================
+diff --git a/../DemoGuru99/.idea/jarRepositories.xml b/../DemoGuru99/.idea/jarRepositories.xml
+deleted file mode 100644
+--- a/../DemoGuru99/.idea/jarRepositories.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Central Repository" />
+-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../PracticeSession/.idea/encodings.xml
+===================================================================
+diff --git a/../PracticeSession/.idea/encodings.xml b/../PracticeSession/.idea/encodings.xml
+deleted file mode 100644
+--- a/../PracticeSession/.idea/encodings.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../PracticeSession/src/main/resources/archetype-resources/src/test/java/AppTest.java
+===================================================================
+diff --git a/../PracticeSession/src/main/resources/archetype-resources/src/test/java/AppTest.java b/../PracticeSession/src/main/resources/archetype-resources/src/test/java/AppTest.java
+deleted file mode 100644
+--- a/../PracticeSession/src/main/resources/archetype-resources/src/test/java/AppTest.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,38 +0,0 @@
+-package $org.example;
+-
+-import junit.framework.Test;
+-import junit.framework.TestCase;
+-import junit.framework.TestSuite;
+-
+-/**
+- * Unit test for simple App.
+- */
+-public class AppTest 
+-    extends TestCase
+-{
+-    /**
+-     * Create the test case
+-     *
+-     * @param testName name of the test case
+-     */
+-    public AppTest( String testName )
+-    {
+-        super( testName );
+-    }
+-
+-    /**
+-     * @return the suite of tests being tested
+-     */
+-    public static Test suite()
+-    {
+-        return new TestSuite( AppTest.class );
+-    }
+-
+-    /**
+-     * Rigourous Test :-)
+-     */
+-    public void testApp()
+-    {
+-        assertTrue( true );
+-    }
+-}
+Index: ../PracticeSession/target/classes/archetype-resources/pom.xml
+===================================================================
+diff --git a/../PracticeSession/target/classes/archetype-resources/pom.xml b/../PracticeSession/target/classes/archetype-resources/pom.xml
+deleted file mode 100644
+--- a/../PracticeSession/target/classes/archetype-resources/pom.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,15 +0,0 @@
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+-  <modelVersion>4.0.0</modelVersion>
+-  <groupId>$org.example</groupId>
+-  <artifactId>$PracticeSession</artifactId>
+-  <version>$1.0-SNAPSHOT</version>
+-  <dependencies>
+-    <dependency>
+-      <groupId>junit</groupId>
+-      <artifactId>junit</artifactId>
+-      <version>3.8.1</version>
+-      <scope>test</scope>
+-    </dependency>
+-  </dependencies>
+-</project>
+Index: ../PracticeSession/.idea/vcs.xml
+===================================================================
+diff --git a/../PracticeSession/.idea/vcs.xml b/../PracticeSession/.idea/vcs.xml
+deleted file mode 100644
+--- a/../PracticeSession/.idea/vcs.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../DemoGuru99/.idea/.gitignore
+===================================================================
+diff --git a/../DemoGuru99/.idea/.gitignore b/../DemoGuru99/.idea/.gitignore
+deleted file mode 100644
+--- a/../DemoGuru99/.idea/.gitignore	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: ../DemoGuru99/.idea/misc.xml
+===================================================================
+diff --git a/../DemoGuru99/.idea/misc.xml b/../DemoGuru99/.idea/misc.xml
+deleted file mode 100644
+--- a/../DemoGuru99/.idea/misc.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,14 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="MavenProjectsManager">
+-    <option name="originalFiles">
+-      <list>
+-        <option value="$PROJECT_DIR$/pom.xml" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../DemoGuru99/.idea/vcs.xml
+===================================================================
+diff --git a/../DemoGuru99/.idea/vcs.xml b/../DemoGuru99/.idea/vcs.xml
+deleted file mode 100644
+--- a/../DemoGuru99/.idea/vcs.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../PracticeSession/src/main/resources/META-INF/maven/archetype.xml
+===================================================================
+diff --git a/../PracticeSession/src/main/resources/META-INF/maven/archetype.xml b/../PracticeSession/src/main/resources/META-INF/maven/archetype.xml
+deleted file mode 100644
+--- a/../PracticeSession/src/main/resources/META-INF/maven/archetype.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,9 +0,0 @@
+-<archetype>
+-  <id>PracticeSession</id>
+-  <sources>
+-    <source>src/main/java/App.java</source>
+-  </sources>
+-  <testSources>
+-    <source>src/test/java/AppTest.java</source>
+-  </testSources>
+-</archetype>
+Index: ../PracticeSession/src/main/resources/archetype-resources/src/main/java/App.java
+===================================================================
+diff --git a/../PracticeSession/src/main/resources/archetype-resources/src/main/java/App.java b/../PracticeSession/src/main/resources/archetype-resources/src/main/java/App.java
+deleted file mode 100644
+--- a/../PracticeSession/src/main/resources/archetype-resources/src/main/java/App.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,13 +0,0 @@
+-package $org.example;
+-
+-/**
+- * Hello world!
+- *
+- */
+-public class App 
+-{
+-    public static void main( String[] args )
+-    {
+-        System.out.println( "Hello World!" );
+-    }
+-}
+Index: ../PracticeSession/target/classes/archetype-resources/src/main/java/App.java
+===================================================================
+diff --git a/../PracticeSession/target/classes/archetype-resources/src/main/java/App.java b/../PracticeSession/target/classes/archetype-resources/src/main/java/App.java
+deleted file mode 100644
+--- a/../PracticeSession/target/classes/archetype-resources/src/main/java/App.java	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,13 +0,0 @@
+-package $org.example;
+-
+-/**
+- * Hello world!
+- *
+- */
+-public class App 
+-{
+-    public static void main( String[] args )
+-    {
+-        System.out.println( "Hello World!" );
+-    }
+-}
+Index: ../PracticeSession/.idea/compiler.xml
+===================================================================
+diff --git a/../PracticeSession/.idea/compiler.xml b/../PracticeSession/.idea/compiler.xml
+deleted file mode 100644
+--- a/../PracticeSession/.idea/compiler.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <excludeFromCompile>
+-      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+-    </excludeFromCompile>
+-    <annotationProcessing>
+-      <profile name="Maven default annotation processors profile" enabled="true">
+-        <sourceOutputDir name="target/generated-sources/annotations" />
+-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-        <outputRelativeToContentRoot value="true" />
+-        <module name="PracticeSession" />
+-      </profile>
+-    </annotationProcessing>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../DemoGuru99/src/main/resources/META-INF/maven/archetype.xml
+===================================================================
+diff --git a/../DemoGuru99/src/main/resources/META-INF/maven/archetype.xml b/../DemoGuru99/src/main/resources/META-INF/maven/archetype.xml
+deleted file mode 100644
+--- a/../DemoGuru99/src/main/resources/META-INF/maven/archetype.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,9 +0,0 @@
+-<archetype>
+-  <id>DemoGuru99</id>
+-  <sources>
+-    <source>src/main/java/App.java</source>
+-  </sources>
+-  <testSources>
+-    <source>src/test/java/AppTest.java</source>
+-  </testSources>
+-</archetype>
+Index: ../DemoGuru99/.idea/compiler.xml
+===================================================================
+diff --git a/../DemoGuru99/.idea/compiler.xml b/../DemoGuru99/.idea/compiler.xml
+deleted file mode 100644
+--- a/../DemoGuru99/.idea/compiler.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <excludeFromCompile>
+-      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+-    </excludeFromCompile>
+-    <annotationProcessing>
+-      <profile name="Maven default annotation processors profile" enabled="true">
+-        <sourceOutputDir name="target/generated-sources/annotations" />
+-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-        <outputRelativeToContentRoot value="true" />
+-        <module name="DemoGuru99" />
+-      </profile>
+-    </annotationProcessing>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../PracticeSession/pom.xml
+===================================================================
+diff --git a/../PracticeSession/pom.xml b/../PracticeSession/pom.xml
+deleted file mode 100644
+--- a/../PracticeSession/pom.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,10 +0,0 @@
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+-  <modelVersion>4.0.0</modelVersion>
+-  <groupId>org.example</groupId>
+-  <artifactId>PracticeSession</artifactId>
+-  <version>1.0-SNAPSHOT</version>
+-  <name>Archetype - PracticeSession</name>
+-  <url>http://maven.apache.org</url>
+-</project>
+-
+Index: ../PracticeSession/src/main/resources/archetype-resources/pom.xml
+===================================================================
+diff --git a/../PracticeSession/src/main/resources/archetype-resources/pom.xml b/../PracticeSession/src/main/resources/archetype-resources/pom.xml
+deleted file mode 100644
+--- a/../PracticeSession/src/main/resources/archetype-resources/pom.xml	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
++++ /dev/null	(revision ff6f954d3318b20ed83ef4e57e7ce38db3ac26d3)
+@@ -1,15 +0,0 @@
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+-  <modelVersion>4.0.0</modelVersion>
+-  <groupId>$org.example</groupId>
+-  <artifactId>$PracticeSession</artifactId>
+-  <version>$1.0-SNAPSHOT</version>
+-  <dependencies>
+-    <dependency>
+-      <groupId>junit</groupId>
+-      <artifactId>junit</artifactId>
+-      <version>3.8.1</version>
+-      <scope>test</scope>
+-    </dependency>
+-  </dependencies>
+-</project>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1679126521257)
++++ b/.idea/vcs.xml	(date 1679126521257)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/resources/archetype-resources/src/main/java/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/archetype-resources/src/main/java/App.java b/src/main/resources/archetype-resources/src/main/java/App.java
+new file mode 100644
+--- /dev/null	(date 1679126543698)
++++ b/src/main/resources/archetype-resources/src/main/java/App.java	(date 1679126543698)
+@@ -0,0 +1,13 @@
++package $org.example;
++
++/**
++ * Hello world!
++ *
++ */
++public class App 
++{
++    public static void main( String[] args )
++    {
++        System.out.println( "Hello World!" );
++    }
++}
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1679126536294)
++++ b/.idea/.gitignore	(date 1679126536294)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: src/main/resources/archetype-resources/src/test/java/AppTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/archetype-resources/src/test/java/AppTest.java b/src/main/resources/archetype-resources/src/test/java/AppTest.java
+new file mode 100644
+--- /dev/null	(date 1679126543717)
++++ b/src/main/resources/archetype-resources/src/test/java/AppTest.java	(date 1679126543717)
+@@ -0,0 +1,38 @@
++package $org.example;
++
++import junit.framework.Test;
++import junit.framework.TestCase;
++import junit.framework.TestSuite;
++
++/**
++ * Unit test for simple App.
++ */
++public class AppTest 
++    extends TestCase
++{
++    /**
++     * Create the test case
++     *
++     * @param testName name of the test case
++     */
++    public AppTest( String testName )
++    {
++        super( testName );
++    }
++
++    /**
++     * @return the suite of tests being tested
++     */
++    public static Test suite()
++    {
++        return new TestSuite( AppTest.class );
++    }
++
++    /**
++     * Rigourous Test :-)
++     */
++    public void testApp()
++    {
++        assertTrue( true );
++    }
++}
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1679126521057)
++++ b/.idea/misc.xml	(date 1679126521057)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/resources/archetype-resources/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/archetype-resources/pom.xml b/src/main/resources/archetype-resources/pom.xml
+new file mode 100644
+--- /dev/null	(date 1679126543672)
++++ b/src/main/resources/archetype-resources/pom.xml	(date 1679126543672)
+@@ -0,0 +1,15 @@
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++  <groupId>$org.example</groupId>
++  <artifactId>$DemoGuru99_IntelliJ</artifactId>
++  <version>$1.0-SNAPSHOT</version>
++  <dependencies>
++    <dependency>
++      <groupId>junit</groupId>
++      <artifactId>junit</artifactId>
++      <version>3.8.1</version>
++      <scope>test</scope>
++    </dependency>
++  </dependencies>
++</project>
+Index: src/main/resources/META-INF/maven/archetype.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/META-INF/maven/archetype.xml b/src/main/resources/META-INF/maven/archetype.xml
+new file mode 100644
+--- /dev/null	(date 1679126543732)
++++ b/src/main/resources/META-INF/maven/archetype.xml	(date 1679126543732)
+@@ -0,0 +1,9 @@
++<archetype>
++  <id>DemoGuru99_IntelliJ</id>
++  <sources>
++    <source>src/main/java/App.java</source>
++  </sources>
++  <testSources>
++    <source>src/test/java/AppTest.java</source>
++  </testSources>
++</archetype>
+diff --git a/../DemoGuru99/src/test/java/Features/Login.feature b/../DemoGuru99/src/test/java/Features/Login.feature
+deleted file mode 100644

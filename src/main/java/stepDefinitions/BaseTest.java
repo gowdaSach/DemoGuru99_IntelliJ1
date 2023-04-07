@@ -36,6 +36,9 @@ public class BaseTest {
     public void AddedForTest(){
 
     }
+    public void ADDnewTestCases(){
+        //Hi
+    }
 
 
 

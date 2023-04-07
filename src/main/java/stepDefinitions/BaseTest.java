@@ -33,6 +33,9 @@ public class BaseTest {
         loginPageScreen.clickSubmitButton();
 
     }
+    public void AddedForTest(){
+
+    }
 
 
 

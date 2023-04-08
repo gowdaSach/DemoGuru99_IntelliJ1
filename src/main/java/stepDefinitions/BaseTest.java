@@ -37,7 +37,7 @@ public class BaseTest {
 
     }
     public void Mergemethod(){
-        //HI
+        //HI How are u
     }
 
 

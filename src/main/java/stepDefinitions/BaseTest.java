@@ -36,12 +36,13 @@ public class BaseTest {
     public void AddedForTest(){
 
     }
+    public void Mergemethod(){
+        //HI How are u
+    }
     public void ADDnewTestCases(){
         //Hi
     }
-    public void Mergemethod(){
-        //HI
-    }
+
 
 
 

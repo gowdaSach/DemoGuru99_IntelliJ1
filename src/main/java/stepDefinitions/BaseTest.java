@@ -39,6 +39,9 @@ public class BaseTest {
     public void ADDnewTestCases(){
         //Hi
     }
+    public void Mergemethod(){
+        //HI
+    }
 
 
 

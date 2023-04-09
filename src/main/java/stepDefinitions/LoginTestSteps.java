@@ -5,11 +5,10 @@ import pages.LoginPageScreen;
 
 public class LoginTestSteps {
 
-    private LoginPageScreen loginPageScreen;
-    private GenericMethods genericMethods;
+    private final LoginPageScreen loginPageScreen;
+
     public LoginTestSteps(){
-        genericMethods=new GenericMethods();
-        loginPageScreen=new LoginPageScreen(genericMethods.driver);
+        loginPageScreen=new LoginPageScreen(GenericMethods.driver);
     }
 
     @Then("User verifies the success message as {string}")

@@ -1,1 +1,0 @@
-Scenario: cHECKING THE FEATURE

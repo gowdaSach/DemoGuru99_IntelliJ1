@@ -1,8 +1,6 @@
 package stepDefinitions;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import cucumber.api.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,15 +31,7 @@ public class BaseTest {
         loginPageScreen.clickSubmitButton();
 
     }
-    public void AddedForTest(){
 
-    }
-    public void Mergemethod(){
-        //HI How are u
-    }
-    public void ADDnewTestCases(){
-        //Hi
-    }
 
 
 

@@ -19,6 +19,9 @@ public class LoginTestSteps {
     public void user_verifies_the_error_message_as(String string) {
 
     }
+    public void add(){
+
+    }
 
 
     }

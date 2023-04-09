@@ -6,7 +6,6 @@ Feature: Login to DemoGuru99 Page
     And User search for the URL "https://demo.guru99.com/test/login.html"
     When User provides "<username>" and "<password>" at login page
     And User clicks on submit button
-    Then user verifies the Page Title as ""
     And User verifies the success message as "Successfully Logged in..."
     And User closes the browser
 

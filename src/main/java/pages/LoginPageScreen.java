@@ -28,7 +28,7 @@ public class LoginPageScreen {
     @CacheLookup
     WebElement signInButton;
 
-    @FindBy(xpath="//h3[text()='Successfully Logged in...']")
+    @FindBy(xpath="//div[@class=\"error-copy\"]/h3")
     @CacheLookup
     WebElement validationMsg;
 
@@ -47,11 +47,7 @@ public class LoginPageScreen {
     }
     public void validateLoginMsg(String msg){
        String Actualmsg= validationMsg.getText();
-       if(Actualmsg.equals(msg)){
-           Assert.assertTrue(msg, true);
-           Assert.assertEquals(Actualmsg, msg);
-           System.out.println("Login Page Success Message is "+Actualmsg);
-       }
+       Assert.assertEquals("Success Msg is "+Actualmsg+"",msg, Actualmsg);
     }
 
     public void validatePageTitle(String title){

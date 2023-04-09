@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features="src/test/java/Features",
+        features=".//src/test/java/Features",
         glue="stepDefinitions",
         tags="@EOCM-001",
         dryRun = false,

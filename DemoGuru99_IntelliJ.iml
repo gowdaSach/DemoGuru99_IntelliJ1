@@ -9,7 +9,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+=======
+    <orderEntry type="inheritedJdk" />
+>>>>>>> 21a092cb1622946b9fbe4888aa8ead2c9d160245
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:4.4.0" level="project" />

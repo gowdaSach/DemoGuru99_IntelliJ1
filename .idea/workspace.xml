@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0820db56-afda-4c50-89cf-d7bdd914a55a" name="Changes" comment="changes applied in Master">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="0820db56-afda-4c50-89cf-d7bdd914a55a" name="Changes" comment="changes applied in Master" />
+>>>>>>> 21a092cb1622946b9fbe4888aa8ead2c9d160245
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/GenericMethods.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,6 +55,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -56,11 +64,17 @@
       <recent name="C:\Users\User\IdeaProjects\DemoGuru99_IntelliJ\src\test\java\Features\" />
     </key>
   </component>
+=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+>>>>>>> 21a092cb1622946b9fbe4888aa8ead2c9d160245
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.TestRunnner1">
     <configuration name="Feature: LoginTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
@@ -77,10 +91,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+=======
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+>>>>>>> 21a092cb1622946b9fbe4888aa8ead2c9d160245
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Scenario: Login to DemoGuru99 Page with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/LoginTest.feature" />
@@ -97,10 +116,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+=======
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+>>>>>>> 21a092cb1622946b9fbe4888aa8ead2c9d160245
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Scenario: Login to DemoGuru99 Page with valid credentials (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Login.feature" />
@@ -164,6 +188,8 @@
         <item itemvalue="Cucumber Java.Feature: LoginTest" />
       </list>
     </recent_temporary>
+=======
+>>>>>>> 21a092cb1622946b9fbe4888aa8ead2c9d160245
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

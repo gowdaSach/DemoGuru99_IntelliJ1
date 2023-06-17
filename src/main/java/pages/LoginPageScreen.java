@@ -9,31 +9,31 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageScreen {
-      public WebDriver ldriver;
+    public WebDriver ldriver;
 
-    public LoginPageScreen(WebDriver rdriver){
-        this.ldriver=rdriver;
-        PageFactory.initElements(rdriver,this);
+    public LoginPageScreen(WebDriver rdriver) {
+        this.ldriver = rdriver;
+        PageFactory.initElements(rdriver, this);
     }
 
-    @FindBy(xpath ="//input[@id=\"email\"]")
+    @FindBy(xpath = "//input[@id=\"email\"]")
     @CacheLookup
     WebElement username;
 
-    @FindBy(xpath ="//input[@id=\"passwd\"]")
+    @FindBy(xpath = "//input[@id=\"passwd\"]")
     @CacheLookup
     WebElement password;
 
-    @FindBy(xpath ="//button[@id=\"SubmitLogin\"]")
+    @FindBy(xpath = "//button[@id=\"SubmitLogin\"]")
     @CacheLookup
     WebElement signInButton;
 
-    @FindBy(xpath="//div[@class=\"error-copy\"]/h3")
+    @FindBy(xpath = "//div[@class=\"error-copy\"]/h3")
     @CacheLookup
     WebElement validationMsg;
 
 
-    public void enterUserName(String uname){
+    public void enterUserName(String uname) {
         username.clear();
         username.sendKeys(uname);
     }
@@ -42,20 +42,19 @@ public class LoginPageScreen {
         password.clear();
         password.sendKeys(pasword);
     }
-    public  void  clickSubmitButton(){
+
+    public void clickSubmitButton() {
         signInButton.click();
     }
-    public void validateLoginMsg(String msg){
-       String Actualmsg= validationMsg.getText();
-       Assert.assertEquals("Success Msg is "+Actualmsg+"",msg, Actualmsg);
+
+    public void validateLoginMsg(String msg) {
+        String actualMsg = validationMsg.getText();
+        Assert.assertEquals("Success Msg is " + actualMsg + "", msg, actualMsg);
     }
 
-    public void validatePageTitle(String title){
-        String ActualTitle= ldriver.getTitle();
-        System.out.println("Login Page Title is "+ActualTitle);
-        if(ActualTitle.equals(title)){
-            Assert.assertEquals(ActualTitle, title);
-            System.out.println("Login Page Title is "+ActualTitle);
-        }
+    public void validatePageTitle(String title) {
+        String ActualTitle = ldriver.getTitle();
+        System.out.println("The Page Title is " + ActualTitle);
+        Assert.assertEquals(ActualTitle, title);
     }
 }

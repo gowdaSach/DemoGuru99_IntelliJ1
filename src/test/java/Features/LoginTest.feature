@@ -14,7 +14,7 @@ Feature: Login to DemoGuru99 Page
     |    mngr484448         |   UhYvUnU       |
 
 
-    @Login   @EOCM-001
+    @Login   @EOCM-002
   Scenario Outline: Login to DemoGuru99 Page with invalid credentials
       Given User launches chrome browser
       And User search for the URL "https://demo.guru99.com/test/login.html"
